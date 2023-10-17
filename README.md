@@ -291,6 +291,9 @@ Callbacks
 FragmentA view is created again. When replacing, the FragmentA view gets destroyed, `onDestroyView` gets called so when coming back it calls `onCreateView` to initialise the view again.
 Though, `onCreate` will not get called again.
 
+#### Lifecycle States
+
+// TODO
 
 ### Networking
 - What is the role of OkHttp and Retrofit?
